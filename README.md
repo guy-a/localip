@@ -1,7 +1,7 @@
 # WebRTC localIP
 
 ## A fake website to get the users local IP address by email.
-### Get a free SendGrid account in order to use email https://elements.heroku.com/addons/sendgrid
+#### Get a free SendGrid account in order to use email https://elements.heroku.com/addons/sendgrid
 
 ## Running Locally
 
