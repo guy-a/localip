@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <ul>
+      <% ['00.png', '01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg', '08.png', '09.jpg', '10.png', '11.jpg'].forEach(function(r) { %>
+      <li class="resolution"><img src="/images/<%= r %>"></li>
+      <% }); %>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+    Check out our new <a href="http://www.zimbio.com/generator/wJo1VPVBhZH/The+Random+New+Year's+Resolution+Generator" target="_blank" class="alert-link">resolution generator</a>, it's awesome!!!
+  </div>
+  <hr>
+</div>
+
+
+</body>
+</html>
